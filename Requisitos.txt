@@ -1,0 +1,18 @@
+
+#Sistema Adição ADM
+Adicionar Jogo: 
+[Nome do jogo] 
+[Imagem de capa] 
+[Desenvolvedora] 
+[Publicadora] 
+[Plataformas] 
+[Tempo médio de gameplay] 
+[Gêneros] 
+    
+#Sistema Adição Usuário 
+[Nome do jogo] (Box de seleção com a pesquisa pelo nome exibindo nome imagem de capa)
+[Listar dados do jogo] (Confirmação de dados pelo usuário)
+[Adicionar tempo de jogo] (Tempo que levou para o usuário completar o jogo)
+[Adicionar Nota de jogo] (Seleção de nota com slide de seleção entre 1 e 10)
+[Adicionar Plataforma jogada] (Caixa de seleção entre as plataformas disponíveis do jogo, em caso de apenas uma ser cadastrada jogo será automaticamente adicionado aquela plataforma)
+[Selecionar tipo da lista] (Check box com tipo de lista que vai ser adicionada[Para Jogar|Jogando|Zerei|Platinei|Para Platinar|Dropei|Lista de desejos???])
