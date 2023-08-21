@@ -22,20 +22,68 @@
     </header>
 
     <main>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Adicionar</a>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Cadastrar Jogo</a>
 
         <div id="modal1" class="modal">
             <div class="modal-content">
-                <h4>Adicionar Jogo</h4>
+                <!-- Text input nome do jogo -->
                 <div class="row">
-                    <div class="col s12">
+                    <div class="col s6">
                         Nome do Jogo:
+                        <div class="input-field inline">
+                            <input id="nome_jogo" class="validate">
+                        </div>
+                    </div>
+
+                    <div class="col s6">
+                        Desenvolvedora:
+                        <div class="input-field inline">
+                            <input id="nome_jogo" class="validate">
+                        </div>
+                    </div>
+
+                    <div class="col s12">
+                        Publicadora:
                         <div class="input-field inline">
                             <input id="nome_jogo" class="validate">
                         </div>
                     </div>
                 </div>
 
+                <!-- Textinput para desenvoldedora -->
+                <div class="row">
+
+                </div>
+
+                <!-- Textinpu para publicadora -->
+                <div class="row">
+
+                </div>
+
+                <!-- Inputs dropdown -->
+                <div class="row">
+                    <!-- Dropdown com as plataformas dos jogos -->
+                    <div class="input-field col s6">
+                        <select multiple>
+                        <option value="1">Playstation 5</option>
+                        <option value="2">Nintendo Switch</option>
+                        <option value="3">Xbox One</option>
+                        </select>
+                        <label>Plataformas</label>
+                    </div>
+
+                    <!-- Dropdown com os gêneros dos jogos -->
+                    <div class="input-field col s6">
+                        <select multiple>
+                        <option value="1">Ação</option>
+                        <option value="2">FPS</option>
+                        <option value="3">Simulação</option>
+                        </select>
+                        <label>Gênero de jogo</label>
+                    </div>
+                </div>
+
+                <!-- Area de envio de arquivo (imagem de capa) -->
                 <form action="#">
                     <div class="file-field input-field">
                     <div class="btn">
@@ -48,51 +96,6 @@
                     </div>
                     </div>
                 </form>
-
-                <div class="row">
-                    <div class="col s12">
-                        Desenvolvedora:
-                        <div class="input-field inline">
-                            <input id="nome_jogo" class="validate">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col s12">
-                        Publicadora:
-                        <div class="input-field inline">
-                            <input id="nome_jogo" class="validate">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col s12">
-                        Plataformas:
-                        <div class="input-field inline">
-                            <input id="nome_jogo" class="validate">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col s12">
-                        Tempo médio de gameplay:
-                        <div class="input-field inline">
-                            <input id="nome_jogo" class="validate">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col s12">
-                        Gêneros:
-                        <div class="input-field inline">
-                            <input id="nome_jogo" class="validate">
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="modal-footer">
                 <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>

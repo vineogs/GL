@@ -1,3 +1,7 @@
 .nav-wrapper {
     background-color: black;
 }
+
+.input-field {
+    padding-bottom: 20px;
+}
