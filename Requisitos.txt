@@ -7,8 +7,26 @@ Adicionar Jogo:
 [Publicadora] 
 [Plataformas] 
 [Tempo médio de gameplay] 
-[Gêneros] 
+[Gêneros]
+
+Modal de cadastro:
+
+textinput nome do jogo
+file input arquivo de imagem de capa
+textinput nome Desenvolvedora
+textinput nome Publicadora
+dropdown com plataformas (multiseleção)
+textinput[formatação de tempo (hora/minuto)]
+dropdown Gêneros (multiseleção)
     
+Modal Adição a lista
+
+textinput (auto complete com os jogos cadastrados)
+textinput[formatação de tempo (hora/minuto/?segundo?)] (opcional)
+dropdown [seleção unica de nota 1-10]
+dropdown plataforma jogada [baseada pelo cadastro]
+dropdown seleção lista [Falta jogar/zerado/platinado/platinar/dropado/?lista de desejos?]
+
 #Sistema Adição Usuário 
 [Nome do jogo] (Box de seleção com a pesquisa pelo nome exibindo nome imagem de capa)
 [Listar dados do jogo] (Confirmação de dados pelo usuário)
