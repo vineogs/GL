@@ -22,15 +22,15 @@
     </header>
 
     <main>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Cadastrar Jogo</a>
-
-        <div id="modal1" class="modal">
+        <!-- Modal de cadastro de jogos -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal_cadastro">Cadastrar Jogo</a>
+        <div id="modal_cadastro" class="modal">
             <div class="modal-content">
                 <!-- Text input nome do jogo -->
                 <div class="row">
-                    <div class="col s6">
+                    <div class="col s12">
                         Nome do Jogo:
-                        <div class="input-field inline">
+                        <div class="input-field inline" id="input_nome_jogo">
                             <input id="nome_jogo" class="validate">
                         </div>
                     </div>
@@ -42,22 +42,12 @@
                         </div>
                     </div>
 
-                    <div class="col s12">
+                    <div class="col s6">
                         Publicadora:
                         <div class="input-field inline">
                             <input id="nome_jogo" class="validate">
                         </div>
                     </div>
-                </div>
-
-                <!-- Textinput para desenvoldedora -->
-                <div class="row">
-
-                </div>
-
-                <!-- Textinpu para publicadora -->
-                <div class="row">
-
                 </div>
 
                 <!-- Inputs dropdown -->
@@ -98,7 +88,89 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            <a #href="#" class="waves-effect waves-light btn-small">Cadastrar</a>
+            </div>
+        </div>
+
+        <!-- Modal para adicionar jogo a lista -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal_adicionar">adicionar Jogo</a>
+        <div id="modal_adicionar" class="modal">
+            <div class="modal-content">
+                <!-- Text input nome do jogo -->
+                <div class="row">
+                    <div class="col s4">
+                        <nav>
+                            <div class="nav-wrapper" style="background-color: white;">
+                                <form>
+                                    <div class="input-field" >
+                                        <input id="search" type="search" required>
+                                        <label class="label-icon" for="search" style="color: black"><i>Nome Jogo</i></label>
+                                    </div>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
+
+                    <!-- Dropdown com as plataformas dos jogos -->
+                    <div class="input-field col s4">
+                        <select multiple>
+                            <option value="1">Playstation 5</option>
+                            <option value="2">Nintendo Switch</option>
+                            <option value="3">Xbox One</option>
+                        </select>
+                        <label>Plataformas</label>
+                    </div>
+                    <div class="input-field col s4">
+                        Notas:
+                        <div style="width:60px; display:inline-block">
+                            <select>   
+                                <option value="" disabled selected>-</option>
+                                <option value="1">0</option>
+                                <option value="2">1</option>
+                                <option value="3">2</option>
+                                <option value="4">3</option>
+                                <option value="5">4</option>
+                                <option value="6">5</option>
+                                <option value="7">6</option>
+                                <option value="8">7</option>
+                                <option value="9">8</option>
+                                <option value="10">9</option>
+                                <option value="11">10</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s4">
+                        <select multiple>
+                        <option value="1">Playstation 5</option>
+                        <option value="2">Nintendo Switch</option>
+                        <option value="3">Xbox One</option>
+                        </select>
+                        <label>Plataformas</label>
+                    </div>
+
+                    <div class="input-field col s4">
+                        <select multiple>
+                        <option value="1">Falta Jogar</option>
+                        <option value="2">Jogando</option>
+                        <option value="3">Zerado</option>
+                        </select>
+                        <label>Lista</label>
+                    </div>
+
+                <!-- Text input tempo de gameplay (falta formatar) -->
+                    <div class="col s4">
+                        Tempo de jogo:
+                        <div class="input-field inline" id="input_tempo_jogo">
+                            <input id="nome_jogo" class="validate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a #href="#" class="waves-effect waves-light btn-small">Cadastrar</a>
             </div>
         </div>
     </main>

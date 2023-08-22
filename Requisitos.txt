@@ -16,7 +16,6 @@ file input arquivo de imagem de capa
 textinput nome Desenvolvedora
 textinput nome Publicadora
 dropdown com plataformas (multiseleção)
-textinput[formatação de tempo (hora/minuto)]
 dropdown Gêneros (multiseleção)
     
 Modal Adição a lista
