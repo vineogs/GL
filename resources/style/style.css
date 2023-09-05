@@ -1,15 +1,3 @@
-.nav-wrapper {
-    background-color: black;
-}
-
-#modal_cadastro, #modal_adicionar {
-    width: 80vw;
-}
-
-#input_nome_jogo {
-    width: 80%;
-}
-
-#input_tempo_jogo {
-    width: 50px;
+#bg {
+    background-color: #bbbbbb;
 }
