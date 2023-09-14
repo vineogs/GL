@@ -1,11 +1,11 @@
-<!DOCTYPE html>background-color: black;
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../resources/style/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <title>Game List - Adicionar</title>
+    <title>Game List - Ínicio</title>
 </head>
 <body id="bg">
     <header>
@@ -40,6 +40,7 @@
                 </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
@@ -47,8 +48,29 @@
         </nav>
     </header>
     <main>
-        
+
+    <form method="POST" enctype="multipart/form-data" id="adicionar_jogo">
+        Nome: <input type="text" name="valor" id="valor" required>
+
+        Selecione uma imagem: <input type="file" name="imagem" id="imagem">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!--
+        <form action="enviar.php" method="POST" id="adicionar_jogo" enctype="multipart/form-data">
+            
+            
+            <label for="imagem">Imagem de capa: </label>
+            <input type="file" name="imagem" id="imagem">
+
+            <input type="submit" value="Enviar">
+        </form>
+-->
+        <div id=resultado></div>
+
+        <div id="imagem-preview"></div>
     </main>
+    <script src="../resources/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
